@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: sso-server
+server:
+  port: 8892
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+    locale: zh_CN
+jwt:
+  header: Authorization
+  secret: mySecret
+    #token有效期一天
+  expiration: 86400
+  tokenHead: 'Bearer '
+
+#eureka.client.service-url.defaultZone=http://localhost:8051/eureka

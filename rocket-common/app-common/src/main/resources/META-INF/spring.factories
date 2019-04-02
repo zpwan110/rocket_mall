@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.zpwan.appcommon.config.BusinessMessageAutoConfig,\
+com.zpwan.appcommon.exception.ExceptionControllerAdvice
